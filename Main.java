@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,10 +8,15 @@ public class Main {
         System.out.println("Ejercicios");
         System.out.println("-----------------------------");
 
-        int num1, num2, resultado;
+        int resultado;
 
-        num1=35;
-        num2=20;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese numero 1: ");
+        int num1 = sc.nextInt();
+
+        System.out.print("Ingrese numero 2: ");
+        int num2 = sc.nextInt();
 
 
         if (num1 > num2){
